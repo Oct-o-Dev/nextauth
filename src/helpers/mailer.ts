@@ -13,4 +13,16 @@ export const sendEmail = async({email , emailType , userId}) =>
             },
             });
         } 
+
+        const mailOptions = {
+            from: '"Maddison Foo Koch" <maddison53@ethereal.email>',
+            to: "bar@example.com, baz@example.com",
+            subject: "Hello ✔",
+            text: "Hello world?", // plain‑text body
+            html: "<b>Hello world?</b>", // HTML body
+        }
+
+        catch(error) {
+
+        }
     } 
