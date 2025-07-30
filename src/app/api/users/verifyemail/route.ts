@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
          }
          console.log(user);
          // Update user to mark as verified
-         user.isVarified = true;
+         user.isVerified = true;
          user.verifyToken = undefined;
          user.verifyTokenExpiry = undefined;
 
